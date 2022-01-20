@@ -1,0 +1,43 @@
+.button {
+    display: block;
+  font-weight: $fw-bold;
+  line-height: 1.5;
+  color: $color-granite-grey;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  background-color: $color-snow;
+  border: 1px solid $color-granite-grey;
+  padding: 0.375rem 0.75rem;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  border-radius: 50rem;
+
+  &--big {
+      padding: 0 80px;
+    }
+    &--large {
+
+        font-size: 12px;
+        padding: 7px 50px;
+    }
+    &--medium {
+
+        font-size: 12px;
+        padding: 7px 20px;
+    }
+    &--small {
+        font-size: 12px;
+        padding: 4px 13px;
+    }
+      &:hover {
+        color: #fff;
+        background-color: #6c757d;
+        border-color: #6c757d;
+      }
+}
+
+// <button class="button button--big">CLICK AQUÍ</button>
+// <button class="button button--large">CLICK AQUÍ</button>
+// <button class="button button--medium">CLICK AQUÍ</button>
+// <button class="button button--small">CLICK AQUÍ</button> 

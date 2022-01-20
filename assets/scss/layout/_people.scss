@@ -1,0 +1,20 @@
+.people{
+    color: $color-granite-grey;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10vh 0 10vh 0;
+    &__img{
+        max-width: 30vw;
+    }
+    &__title{
+        font-size: $fs-medium;
+        font-weight: $fw-bold;
+        padding: 15px 0 15px 0;
+    }
+    &__content{
+        width: 47vw;
+        font-size: 12px;
+    }
+}

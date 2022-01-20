@@ -1,0 +1,14 @@
+.hero{
+    background-color: $color-jelly-bean;
+    color: $color-white;
+    font-size: $fs-x-large;
+    height: 45vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    &__strong{
+        font-weight: $fw-bold;
+    }
+
+}

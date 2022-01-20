@@ -1,0 +1,10 @@
+.us-section{
+    background-color: $color-jelly-bean;
+    color: $color-white;
+    text-align: center;
+    &__strong{
+        font-weight: $fw-bold;
+        font-size: 32px;
+        padding: 6vw;
+    }
+}

@@ -1,0 +1,22 @@
+.first-description{
+    color: $color-white;
+    background-color: $color-quick-silver;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0 20px 0;
+    &__img{
+        max-width: 70vw;
+    }
+    &__title{
+        font-size: $fs-medium;
+        font-weight: $fw-bold;
+        padding: 15px 0 15px 0;
+    }
+    &__content{
+        width: 47vw;
+        font-size: 12px;
+    }
+
+}

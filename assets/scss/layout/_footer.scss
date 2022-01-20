@@ -1,0 +1,9 @@
+.footer-section{
+    text-align: center;
+    background-color: $color-granite-grey;
+    &__logo {
+        max-width: 135px;
+        margin: 8vh 0 8vh 0;
+        
+      }
+}
